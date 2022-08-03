@@ -1,0 +1,332 @@
+.number_call-link {
+  display: none;
+}
+.down{
+  display: none;
+}
+/* tablet */
+@media (min-width: 1024px) and (max-width: 1360px) {
+  /* home */
+  .banner_small,
+  .logo__search__contact {
+    margin: 0 3em;
+  }
+  .logo__search__contact--logo {
+    max-width: 30%;
+  }
+  .logo__search__contact--search {
+    margin-left: 1em;
+  }
+  .logo__search__contact--contact a h2,
+  .logo__search__contact--contact a p {
+    font-size: 2em;
+    margin-left: 0;
+  }
+
+  .grid {
+    margin: 0 3em;
+  }
+  .logo__search--search-cart {
+    width: 3.125em !important;
+  }
+  .logo__search--search-cart span {
+    display: none;
+  }
+
+  nav ul li a {
+    font-size: 1.1em;
+  }
+  .cellphones__items:last-child {
+    display: none;
+  }
+  .cellphones__items {
+    flex-basis: 24%;
+  }
+
+  .computers__items:last-child {
+    display: none;
+  }
+  .computers__items {
+    flex-basis: 24%;
+  }
+
+  .headphones__items:last-child {
+    display: none;
+  }
+  .headphones__items {
+    flex-basis: 24%;
+  }
+  
+  /* endhome */
+
+  /* cell */
+  .grid__items {
+    flex-wrap: wrap;
+  }
+  .product__cellphones__items {
+    flex-basis: 25%;
+  }
+  .grid ~ .product__cellphones__viewall {
+    width: 30%;
+  }
+  /* end cell */
+  /* headphone */
+  .grid__items {
+    flex-wrap: wrap;
+  }
+  .product__headphones__items {
+    flex-basis: 25%;
+  }
+  .grid ~ .product__headphones__viewall {
+    width: 30%;
+  }
+  /* end headphone */
+  /* smartwatch */
+  .grid__items {
+    flex-wrap: wrap;
+  }
+  .product__smartwatchs__items {
+    flex-basis: 25%;
+  }
+  .grid ~ .product__smartwatchs__viewall {
+    width: 30%;
+  }
+  /* end smartwatch */
+  /* lap */
+  .lap_gaming {
+    height: 1384px !important;
+  }
+  .lap_gaming__items {
+    flex-basis: 24% !important;
+  }
+  .lap_gaming__items:last-child {
+    display: none;
+  }
+  .lap_gaming__items:first-child {
+    display: none;
+  }
+  
+  .macbook__items {
+    flex-basis: 24% !important;
+  }
+  .macbook__items:last-child {
+    display: none;
+  }
+  .macbook__items:first-child {
+    display: none;
+  }
+
+  .lap_office__items {
+    flex-basis: 24% !important;
+  }
+  .lap_office__items:last-child {
+    display: none;
+  }
+  .lap_office__items:first-child {
+    display: none;
+  }
+  .lap_office__viewall{
+    width: 31% !important;
+  }
+  /* end lap */
+  .down{
+    display: block;
+  }
+}
+
+/* mobile */
+@media (max-width: 1023px) {
+  /* home */
+  .down{
+    display: block;
+  }
+  .logo__search--search-cart {
+    width: 3.125em !important;
+  }
+  .logo__search--search-cart span {
+    display: none;
+  }
+
+  .logo__search__contact--contact {
+    display: none;
+  }
+  .grid__items {
+    flex-wrap: wrap;
+  }
+
+  .cellphones {
+    height: 1500px;
+    position: relative;
+  }
+  .cellphones__viewall {
+    position: absolute;
+    bottom: 0;
+    right: 41%;
+  }
+  .cellphones__items:last-child {
+    display: none;
+  }
+  .cellphones__items {
+    flex-basis: 48%;
+    margin-top: 1em;
+  }
+  .computers {
+    height: 1250px;
+    position: relative;
+  }
+  .computers__viewall {
+    position: absolute;
+    bottom: 0;
+    right: 41%;
+  }
+  .computers__items:last-child {
+    display: none;
+  }
+  .computers__items {
+    flex-basis: 48%;
+    margin-top: 1em;
+  }
+  .headphones {
+    height: 1500px;
+    position: relative;
+  }
+  .headphones__viewall {
+    position: absolute;
+    bottom: 0;
+    right: 41%;
+  }
+  .headphones__items:last-child {
+    display: none;
+  }
+  .headphones__items {
+    flex-basis: 48%;
+    margin-top: 1em;
+  }
+  /* sm */
+  .smartwatchs {
+    height: 1500px;
+    position: relative;
+  }
+  .smartwatchs__viewall {
+    position: absolute;
+    bottom: 0;
+    right: 41%;
+  }
+  .smartwatchs__items:last-child {
+    display: none;
+  }
+  .smartwatchs__items {
+    flex-basis: 48%;
+    margin-top: 1em;
+  }
+  .product__smartwatchs__items {
+    flex-basis: 50%;
+  }
+  .product__smartwatchs__items::before{
+  }
+  .grid ~ .product__smartwatchs__viewall {
+    width: 30%;
+  }
+  /* end */
+  .number_call-link {
+    display: block;
+  }
+  .number_call {
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    background-color: rgba(255, 255, 7, 0.805);
+    width: 190px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 60px;
+    border: 2px solid rgb(181, 181, 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .number_call-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(246, 22, 22);
+  }
+  .number_call--icon {
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-right: -20px;
+    border: 2px solid black;
+    color: var(--button-color);
+    height: 101%;
+  }
+  /* end home */
+
+  /* cell */
+  .product__cellphones__items {
+    flex-basis: 50%;
+  }
+  .grid ~ .product__cellphones__viewall {
+    width: 30%;
+  }
+  /* end cell */
+  /* headphones */
+  .product__headphones__items {
+    flex-basis: 50%;
+  }
+  .grid ~ .product__headphones__viewall {
+    width: 30%;
+  }
+  /* end headphones */
+  /* lap */
+  .lap_gaming {
+    height: 2800px !important;
+  }
+  .lap_gaming__items {
+    flex-basis: 49% !important;
+  }
+  .lap_gaming__items:last-child {
+    display: none;
+  }
+  .lap_gaming__items:first-child {
+    display: none;
+  }
+  .lap_gaming__viewall{
+    width: 33% !important;
+  }
+  
+  .macbook{
+    height: 2670px !important;
+  }
+  .macbook__items {
+    flex-basis: 49% !important;
+  }
+  .macbook__items:last-child {
+    display: none;
+  }
+  .macbook__items:first-child {
+    display: none;
+  }
+  .macbook__viewall{
+    width: 33% !important;
+  }
+
+  .lap_office{
+    height: 2800px !important;
+  }
+  .lap_office__items {
+    flex-basis: 49% !important;
+  }
+  .lap_office__items:last-child {
+    display: none;
+  }
+  .lap_office__items:first-child {
+    display: none;
+  }
+  .lap_office__viewall{
+    width: 40% !important;
+  }
+  /* end lap */
+}

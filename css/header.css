@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+@keyframes menu {
+  from{
+    opacity: 0.5;
+  }
+  to{
+    opacity: 1;
+  }
+}
+.container {
+  /* max-width: 1440px;
+  margin: auto; */
+}
+.grid{
+  max-width: 1340px;
+  margin: auto;
+}
+/* header */
+header{
+  background-color:rgba(255, 212, 0, 1) ;
+}
+/* logo__search__contact */
+.logo__search__contact {
+  display: flex;
+  justify-content: space-between;
+  background-color:rgba(255, 212, 0, 1) ;
+  height: 140px;
+  margin-top: -4px;
+}
+.logo__search--logo {
+  flex-basis: 45%;
+}
+.logo__search--search {
+  flex-basis: 25%;
+}
+.logo__search__contact--contact {
+  flex-basis: 20%;
+}
+/* search */
+.logo__search__contact--search{
+  margin: auto;
+  margin-left: 110px;
+}
+.logo__search__contact--search-container {
+  display: flex;
+  height: 20%;
+  margin: auto;
+}
+.logo__search--search-input{
+    background-color: white;
+    width: 450px;
+    border-radius: 2px;
+}
+.logo__search--search-input input{
+width: 90%;
+height: 90%;
+margin-top: 2px;
+margin-left: 5px;
+border: none;
+outline: none;
+}
+.logo__search--search-input button{
+    height: 100%;
+    width: 36px;
+    border: none;
+    border-top-right-radius:2px ;
+    border-bottom-right-radius:2px ;
+}
+.logo__search--search-cart{
+    margin-left: 30px;
+    background-color: rgba(255, 200, 0, 0.845);
+    width: 130px;
+    height: 50px;
+    border-radius: 5px;
+}
+.logo__search--search-cart a{
+    text-decoration: none;
+    color: black;
+}
+.logo__search--search-cart i{
+  margin-top: 10px;
+    font-size: 30px;
+    margin-left: 5px;
+}
+.logo__search--search-cart span{
+  font-size: 20px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    position: relative;
+    top: 22px;
+    right: 23px;
+}
+nav ul li{
+    margin-left: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+nav ul li a:hover{
+ color: #284bd6;
+ animation: menu linear 0.3s;
+}
+/* contact */
+.logo__search__contact--contact{
+    text-align: center;
+    margin: auto;
+}
+.logo__search__contact--contact a{
+ text-decoration: none;
+ color: black;
+}
+.logo__search__contact--contact h2{
+    font-size: 50px;
+}
+.logo__search__contact--contact p{
+    font-size: 40px;
+}
+
+

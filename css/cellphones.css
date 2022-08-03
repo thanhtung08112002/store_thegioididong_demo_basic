@@ -1,0 +1,111 @@
+/*banner cellphones */
+.banner_cellphones {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.banner_cellphones a {
+  flex-basis: 65.5%;
+}
+.banner_cellphones .banner_cellphones--items {
+  flex-basis: 34%;
+}
+.banner_cellphones--items {
+  display: flex;
+  flex-direction: column;
+}
+.banner_cellphones--items a:last-child {
+  justify-self: flex-end;
+}
+
+/* product_cellphones */
+
+.grid__items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product__cellphones__items {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #e7e4e4;
+  cursor: pointer;
+  width: 20%;
+  /* height: 27%; */
+}
+.product__cellphones__items a {
+  text-decoration: none;
+  color: black;
+}
+.product__cellphones__items .product__cellphones__items--installment {
+  background-color: #f1f1f1;
+}
+.product__cellphones__items img {
+  margin: 15px 0;
+}
+
+.product__cellphones__items p {
+  margin: 10px 0;
+}
+.product__cellphones__items h3 {
+  font-weight: normal;
+  font-size: 17px;
+}
+.product__cellphones__items .product__cellphones__items--price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #d0021c;
+  margin-right: 10px;
+}
+@keyframes up {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.product__cellphones__items:hover h3 {
+  color: #288ad6;
+}
+.product__cellphones__items:hover img {
+  animation: up linear 0.5s;
+}
+.product__cellphones__viewall {
+  background-color: white;
+  width: 20%;
+  height: 40px;
+  border-radius: 5px;
+  margin: 15px auto;
+  line-height: 40px;
+  border: 1px solid #e3e3e3;
+}
+.product__cellphones__viewall a {
+  text-decoration: none;
+  font-weight: normal;
+}
+@keyframes on {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+.product__cellphones__viewall a:hover {
+  background-color:#288ad6; 
+  animation: on ease-in 0.2s;
+  color: #ffff;
+  border-radius: 5px;
+}
+.product__cellphones__viewall--link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.product__cellphones__viewall--link i {
+  margin-left: 5px;
+  font-size: 18px;
+  margin-bottom: 5px;
+}

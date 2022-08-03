@@ -1,0 +1,96 @@
+.product__smartwatchs__items--link button{
+    color: black;
+}
+  /* product_smartwatchs */
+  article{
+    margin-top: 2em;
+  }
+  .grid__items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .product__smartwatchs__items {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #e7e4e4;
+    cursor: pointer;
+    width: 20%;
+    /* height: 30%; */
+  }
+  .product__smartwatchs__items a {
+    text-decoration: none;
+    color: black;
+  }
+  .product__smartwatchs__items .product__smartwatchs__items--installment {
+    background-color: #f1f1f1;
+  }
+  .product__smartwatchs__items img {
+    margin: 15px 0;
+  }
+  
+  .product__smartwatchs__items button {
+    margin: 10px 0;
+  }
+  .product__smartwatchs__items h3 {
+    font-weight: normal;
+    font-size: 17px;
+  }
+  .product__smartwatchs__items .product__smartwatchs__items--price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d0021c;
+    margin-right: 10px;
+  }
+  @keyframes up {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .product__smartwatchs__items:hover h3 {
+    color: #288ad6;
+  }
+  .product__smartwatchs__items:hover img {
+    animation: up linear 0.5s;
+  }
+  .product__smartwatchs__viewall {
+    background-color: white;
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 15px auto;
+    line-height: 40px;
+    border: 1px solid #e3e3e3;
+  }
+  .product__smartwatchs__viewall a {
+    text-decoration: none;
+    font-weight: normal;
+  }
+  @keyframes on {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .product__smartwatchs__viewall a:hover {
+    background-color: #288ad6;
+    animation: on ease-in 0.2s;
+    color: #ffff;
+    border-radius: 5px;
+  }
+  .product__smartwatchs__viewall--link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+  .product__smartwatchs__viewall--link i {
+    margin-left: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  

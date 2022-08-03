@@ -1,0 +1,312 @@
+/* banner - header */
+header .banner {
+  height: 200px;
+}
+/* introduce */
+.introduce {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  justify-content: space-between;
+}
+.introduce a:first-child {
+  flex-basis: 49.5%;
+}
+.introduce a:last-child {
+  flex-basis: 49.5%;
+}
+
+/* lap gaming */
+.lap_gaming {
+  background-color: #25304b;
+  height: 1340px;
+}
+.grid_items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.lap_gaming__items {
+  flex-basis: 19%;
+  background-color: white;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.lap_gaming__items a {
+  text-decoration: none;
+  color: black;
+}
+.lap_gaming__items .lap_gaming__items--installment {
+  background-color: #f1f1f1;
+}
+.lap_gaming__items img {
+  margin: 15px 0;
+}
+
+.lap_gaming__items p {
+  margin: 10px 0;
+}
+.lap_gaming__items h3 {
+  font-weight: normal;
+  font-size: 17px;
+}
+.lap_gaming__items .lap_gaming__items--price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #d0021c;
+  margin-right: 10px;
+}
+@keyframes up {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.lap_gaming__items:hover h3 {
+  color: #288ad6;
+}
+.lap_gaming__items:hover img {
+  animation: up linear 0.5s;
+}
+.lap_gaming__items--information-graphic p {
+  display: flex;
+  font-size: 12px;
+  line-height: 22px;
+}
+.lap_gaming__items--information-graphic p span:first-child {
+  min-width: 70px;
+  text-transform: uppercase;
+}
+.lap_gaming__viewall {
+  background-color: #fec000;
+  width: 23%;
+  height: 40px;
+  border-radius: 5px;
+  margin: 15px auto;
+  line-height: 40px;
+  box-shadow: 0 0 5px 5px #5a512f;
+}
+.lap_gaming__viewall a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.lap_gaming__viewall a h3 {
+  font-weight: normal;
+  font-size: 16px;
+}
+.lap_gaming__viewall a:hover {
+  background-color: rgba(239, 214, 214, 0.366);
+}
+.lap_gaming__viewall--link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.lap_gaming__viewall--link i {
+  margin-left: 5px;
+  margin-top: 2px;
+  font-size: 16px;
+}
+
+/* macbook */
+.macbook {
+  background-color: #eaeaea;
+  height: 1340px;
+}
+.grid_items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.macbook__items {
+  flex-basis: 19%;
+  background-color: white;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.macbook__items a {
+  text-decoration: none;
+  color: black;
+}
+.macbook__items .macbook__items--installment {
+  background-color: #f1f1f1;
+}
+.macbook__items img {
+  margin: 15px 0;
+}
+
+.macbook__items p {
+  margin: 10px 0;
+}
+.macbook__items h3 {
+  font-weight: normal;
+  font-size: 17px;
+}
+.macbook__items .macbook__items--price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #d0021c;
+  margin-right: 10px;
+}
+@keyframes up {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.macbook__items:hover h3 {
+  color: #288ad6;
+}
+.macbook__items:hover img {
+  animation: up linear 0.5s;
+}
+.macbook__items--information-graphic p {
+  display: flex;
+  font-size: 12px;
+  line-height: 22px;
+}
+.macbook__items--information-graphic p span:first-child {
+  min-width: 70px;
+  text-transform: uppercase;
+}
+.macbook__viewall {
+  background-color: #fff;
+  width: 23%;
+  height: 40px;
+  border-radius: 5px;
+  margin: 15px auto;
+  line-height: 40px;
+}
+.macbook__viewall a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.macbook__viewall a h3 {
+  font-weight: normal;
+  font-size: 16px;
+}
+.macbook__viewall a:hover {
+  background-color: rgba(239, 214, 214, 0.366);
+}
+.macbook__viewall--link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.macbook__viewall--link i {
+  margin-left: 5px;
+  margin-top: 2px;
+  font-size: 16px;
+}
+
+/* lap office */
+
+.lap_office {
+  background-color: #eaeaea;
+  height: 1370px;
+}
+.grid_items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.lap_office__items {
+  flex-basis: 19%;
+  background-color: white;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.lap_office__items a {
+  text-decoration: none;
+  color: black;
+}
+.lap_office__items .lap_office__items--installment {
+  background-color: #f1f1f1;
+}
+.lap_office__items img {
+  margin: 15px 0;
+}
+
+.lap_office__items p {
+  margin: 10px 0;
+}
+.lap_office__items h3 {
+  font-weight: normal;
+  font-size: 17px;
+}
+.lap_office__items .lap_office__items--price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #d0021c;
+  margin-right: 10px;
+}
+@keyframes up {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.lap_office__items:hover h3 {
+  color: #288ad6;
+}
+.lap_office__items:hover img {
+  animation: up linear 0.5s;
+}
+.lap_office__items--information-graphic p {
+  display: flex;
+  font-size: 12px;
+  line-height: 22px;
+}
+.lap_office__items--information-graphic p span:first-child {
+  min-width: 70px;
+  text-transform: uppercase;
+}
+.lap_office__viewall {
+  background-color: #fff;
+  width: 27%;
+  height: 40px;
+  border-radius: 5px;
+  margin: 15px auto;
+  line-height: 40px;
+}
+.lap_office__viewall a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.lap_office__viewall a h3 {
+  font-weight: normal;
+  font-size: 16px;
+}
+.lap_office__viewall a:hover {
+  background-color: rgba(239, 214, 214, 0.366);
+}
+.lap_office__viewall--link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.lap_office__viewall--link i {
+  margin-left: 5px;
+  margin-top: 2px;
+  font-size: 16px;
+}
+
+/* footer */
+footer {
+  margin-top: -15px !important;
+}
